@@ -1,0 +1,20 @@
+{
+  "name": "quill-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "quill": "^1.3.7",
+    "quill-comment": "^1.3.0",
+    "quill-delta": "^4.2.2"
+  },
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  },
+  "scripts": {
+    "build": "watchify main.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
